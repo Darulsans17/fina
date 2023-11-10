@@ -1,12 +1,3 @@
-
-onload = () => {
-    const c = setTimeout(() => {
-      document.body.classList.remove("not-loaded");
-      clearTimeout(c);
-    }, 1000);
-  };
-  onload = () =>{
-    setTimeout(()=> {
+onload = () =>{
         document.body.classList.remove("container");
-    }, 0);
-};  
+};
